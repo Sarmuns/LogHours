@@ -57,6 +57,31 @@ button:hover {
 .log-container {
   margin-bottom: 20px;
 }
+.log-container li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.log-container span {
+  flex-grow: 1;
+}
+
+.log-container .delete-btn {
+  margin-left: 10px;
+  width: 20%;
+  background-color: red; /* Set the background color to red */
+  color: #fff; /* Set the text color to white */
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.log-container .delete-btn:hover {
+  background-color: darkred; /* Darken the background color on hover */
+}
 
 .log-container h2 {
   text-align: center;
